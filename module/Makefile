@@ -1,4 +1,4 @@
-obj-m := fake-ext4.o
+obj-m += fake-ext4-v0.o
 
 KDIR ?= /lib/modules/`uname -r`/build
 
